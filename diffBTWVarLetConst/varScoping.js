@@ -2,10 +2,10 @@
 
 // example -: 
 
-var x = 1;
+var x = 1;               // SAME 
 
 if( x == 1 ){
-    var x = 2;
+    var x = 2;          // SAME 
     console.log(x)
 }
 console.log(x);

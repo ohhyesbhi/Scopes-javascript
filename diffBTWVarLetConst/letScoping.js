@@ -1,9 +1,9 @@
 // let -: It actually gives a block scope
 
-let x = 1
+let x = 1  // DIFFERENT
 
 if(x == 1){
-    let x = 2;
+    let x = 2;       // DIFFERENT
     console.log(x)
 }
 
