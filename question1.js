@@ -28,3 +28,10 @@
  // o/p -: hello ,   console.lo("hey") TypeError: console.lo is not a function
 
  // if js was compiled then it would never print hello so now we can say that it is not purely compiled lamguage to
+
+
+ // So in general we can say that JS is doing both , so now let's see what's going on.......
+ 
+ // * actually every JS code is executed in two phases , first phase is called as PHARSING PHASE and second phase is called as 
+ //   a EXECUTION PHASE , let's see whole explaination with the help of examples (check file scope1.js)
+ 
