@@ -1,4 +1,5 @@
 //       1)                                   2)
+
 // console.log("hi");                     console.log("hi");              
 // console.lo("hello");                   console..lo("hello");
 // console.log("bye");                    console.log("bye");
@@ -20,3 +21,10 @@
 //           going to set the system property because we can also manually set the things to the onject right so in parsing nothing wrong
 //           will go and when you start execution line no 1 will be executed and on line no 2 we will come to console then we will try to access
 //           the system property which doesn't exists and then it throws an error .
+
+
+// INTRESTING THING
+
+// If we do console.log(10..toString()) will give the o/p as 10 because 10 is a primitive data type and for primitive datatype .. is valid
+// where as object is a non-primitive data type so it is not applicable for that 
+
