@@ -6,7 +6,7 @@ function fun(){             // global scope
         console.log(x);     
         console.log(y);     
     }
-
+    gun();
     console.log(x);         
     console.log(y);       
 }
@@ -29,3 +29,10 @@ fun();
 // in the scope of fun () ? NO , So now it will throw an error
 
 
+// Now lets call function gun() at line no 9 , so when we go inside gun we are now having variable y that has assigned with a value 20 ;
+// and then we have console.log(x) and now we check hey scope of gun() do you have a variable named x ? No , SO NOW WHAT SCOPE
+// MANGER DOES IS IT WILL GO ONE LEVEL UP and it will say hey scope of fun() do you have a variable named x ? YES , and now we 
+// print 10 and after that we go at line no 7 and ask hey scope of gun() do you have variable named y ? YES , and now we print 20
+// and now we will come outside of gun() and now hey scope of fun() do you know about x? YES, so it will print x and then hey scope 
+// of fun() do you know variable y ? NO , and now we will go one scope outside and one scope outside is global scope , so now we will ask
+// hey global scope do you know about y ? No, so now it will throw an error
