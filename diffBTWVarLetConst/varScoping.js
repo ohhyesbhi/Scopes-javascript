@@ -11,7 +11,7 @@ if( x == 1 ){
 console.log(x);
 
 // o/p -: 2 , 2
-// reason -: var x = 1 , where x is actually acting as a global variable and the we can see we have a if BLOCK , which is not a function
+// reason -: var x = 1 , where x is actually acting as a global variable and then we can see we have a if BLOCK , which is not a function
 //           and now we just read that var is nowhere knowing about the block scoping , that means when we do ( var x = 2 ) it will be 
 //           acting as a global variable x only  
 
