@@ -35,3 +35,5 @@
  // * actually every JS code is executed in two phases , first phase is called as PHARSING PHASE and second phase is called as 
  //   a EXECUTION PHASE , let's see whole explaination with the help of examples (check file scope1.js)
  
+
+ // Check it's answer in "answer1.js" file
