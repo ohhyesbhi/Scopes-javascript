@@ -5,12 +5,13 @@ function fun(){        // function declaration  (if the first keyword used is fu
 }         
 
 //2
-let f = function fun(){           // function expression (first keyword used is let so it is function expression)
-    
-}
+let f = function fun(){           // named function expression (first keyword used is let so it is function expression)
+                                  // these named functions actually helps in code readibilty because some time what a particular function 
+}                                 // does it's name will be given that only and also one of the biggest disadvantage of anonymous function
+                                  // expression is that we can't do recursion.
 
 //3
-let a = function(){              // function expression
+let a = function(){              // anonymous function expression
    
 }
 
