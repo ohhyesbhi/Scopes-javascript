@@ -8,7 +8,9 @@ function fun(){        // function declaration  (if the first keyword used is fu
 let f = function fun(){           // named function expression (first keyword used is let so it is function expression)
                                   // these named functions actually helps in code readibilty because some time what a particular function 
 }                                 // does it's name will be given that only and also one of the biggest disadvantage of anonymous function
-                                  // expression is that we can't do recursion.
+                                  // expression is that we can't do recursion and also one more disadvantage of using anonymous function is that .
+            // whenever we do console.trace() we actually get the call stack memory where we can check what all functions are registred so at 
+            // that time the function name will not be registered
 
 //3
 let a = function(){              // anonymous function expression
@@ -34,3 +36,8 @@ let a = function(){              // anonymous function expression
 //     console.log(y)
 
 // })("hello")         here we actually call the function 
+
+
+// ADVANTAGES IIFE -: suppose if at any time there is an naming collision for example let's say we have 5000 lines of code and some one
+//                    new came and hw wants to add the function with particular name and if that name was already degined in a function then 
+//                    that would give him an error but if we use IIFE in some cases we can prevent that
