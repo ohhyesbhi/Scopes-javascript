@@ -1,12 +1,12 @@
 
-var fun ;
+var fun = "123"
 
 
-// function fun(){
-//     return "8910"
-// }
+function fun(){
+    return "8910"
+}
 
-console.log(fun);
+console.log(fun());
 
 // o/p -:   ERROR 
 
