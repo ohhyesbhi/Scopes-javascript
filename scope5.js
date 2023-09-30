@@ -12,3 +12,4 @@ function fun(){                     // global scope
 fun()
 
 
+
